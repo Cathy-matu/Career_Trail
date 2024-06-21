@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark background */
+  color: #e6e6e6; /* Light text color */
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333; /* Dark header background */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #e6e6e6; /* Light text color */
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ffcc00; /* Accent color on hover */
+}
+
+nav a.btn {
+  background-color: #ffcc00; /* Accent button background */
+  color: #1a1a1a; /* Dark button text */
+  border-radius: 5px;
+}
+
+/* Guide Hero Section */
+.guide-hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* White text color */
+  text-align: center;
+}
+
+.guide-content {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 10px;
+}
+
+.guide-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Accent color */
+}
+
+.guide-content p {
+  font-size: 18px;
+}
+
+/* Guide Steps Section */
+.guide-steps {
+  padding: 40px 0;
+  background-color: #2c2c2c; /* Dark section background */
+}
+
+.guide-steps ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.guide-steps li {
+  margin-bottom: 20px;
+}
+
+.guide-steps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffcc00; /* Accent color */
+}
+
+.guide-steps p {
+  font-size: 16px;
+}
+
+/* Guide Resources Section */
+.guide-resources {
+  padding: 40px 0;
+  background-color: #2c2c2c; /* Dark section background */
+}
+
+.guide-resources ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.guide-resources li {
+  margin-bottom: 20px;
+}
+
+.guide-resources a {
+  text-decoration: none;
+  color: #ffcc00; /* Accent color */
+}
+
+.guide-resources a:hover {
+  color: #e6e6e6; /* Light text color on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #333; /* Dark footer background */
+  color: #e6e6e6; /* Light text color */
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffcc00; /* Accent color */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #fff; /* White text color on hover */
+}
+
+footer p {
+  margin: 10px 0;
+}

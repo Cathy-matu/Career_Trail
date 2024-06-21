@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #e6e6e6;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+nav a.btn {
+  background-color: #ffcc00;
+  color: #1a1a1a;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* About Hero Section */
+.about-hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+/* About Info Section */
+.about-info {
+  padding: 40px 0;
+  background-color: #2c2c2c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* About Features Section */
+.about-features {
+  padding: 40px 0;
+}
+
+.about-features h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-features ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.about-features li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Additional Styles for Contact Form */
+.contact-form-container {
+  background-color: #2c2c2c;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin-left: auto;
+  margin-right: 20px; /* Add some right margin */
+  color: #e6e6e6;
+}
+
+.contact-form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e6e6e6;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #999;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  color: #1a1a1a;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e6b800;
+}
+
+  
